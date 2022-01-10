@@ -57,7 +57,7 @@ RUN DEBIAN_FRONTEND='noninteractive' apt-get install -y apt-utils git python3 py
     cd esp32_sdk                                                   && \
     mkdir v4.2                                                     && \
     cd v4.2                                                        && \
-    git clone https://2b51b8f08ad1c63c412829929e6189444f946f46:x-oauth-basic@github.com/espressif/esp-idf.git     && \
+    git clone https://yourAuthKey:x-oauth-basic@github.com/espressif/esp-idf.git     && \
     cd esp-idf                                                     && \    
     git reset --hard v4.2		                            && \
     export IDF_TOOLS_PATH='/esp32_sdk/v4.2/.espressif'             && \
